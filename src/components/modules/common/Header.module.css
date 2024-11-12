@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  color: var(--soom-body-color);
+  padding: 0.5rem;
+  border-top: 1px solid var(--soom-border-color);
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.blank {
+  flex-grow: 1;
+}

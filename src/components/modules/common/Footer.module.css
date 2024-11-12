@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  color: var(--soom-body-color);
+  padding: 0.5rem;
+  border-top: 1px solid var(--soom-border-color);
+  min-height: calc(3rem + 1px);
+}
+
+.blank {
+  flex-grow: 1;
+}
