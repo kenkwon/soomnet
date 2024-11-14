@@ -5,9 +5,7 @@ import { usePathname } from 'next/navigation';
 import React from 'react';
 import styles from './Navigation.module.css';
 
-type OwnProps = {};
-
-const Navigation: React.FC<OwnProps> = () => {
+const Navigation = () => {
   const pathname = usePathname();
 
   return (
