@@ -1,11 +1,15 @@
 .container {
   display: flex;
-  color: var(--soom-body-color);
-  padding: 0.5rem;
+  color: #9e9fa3;
+  padding: 1rem;
   border-top: 1px solid var(--soom-border-color);
-  min-height: calc(3rem + 1px);
+  background-color: #222630;
 }
 
 .blank {
   flex-grow: 1;
+}
+
+.copyright {
+  color: var(--soom-secondary);
 }

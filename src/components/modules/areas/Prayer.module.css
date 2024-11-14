@@ -1,0 +1,11 @@
+.container {
+  border-bottom: 1px solid var(--soom-border-color);
+}
+
+.actions {
+  display: flex;
+  align-items: baseline;
+  font-size: 0.85rem;
+  color: var(--soom-description-color);
+  margin-bottom: 1rem;
+}

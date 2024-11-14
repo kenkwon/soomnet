@@ -1,0 +1,32 @@
+.container {
+  gap: 1rem;
+  border: 1px solid var(--soom-border-color);
+  border-radius: 0.5rem;
+  vertical-align: top;
+  background-color: var(--soom-card-color);
+
+  min-width: 420px;
+}
+
+.header {
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  color: var(--soom-color);
+  border-bottom: 1px solid var(--soom-border-color);
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.header p {
+  font-size: 0.85rem;
+  margin: 0;
+  color: var(--soom-description-color);
+}
+
+.content {
+  padding: 1rem;
+}

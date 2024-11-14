@@ -1,14 +1,17 @@
 .container {
   display: flex;
-  color: var(--soom-body-color);
-  padding: 0.5rem;
-  border-top: 1px solid var(--soom-border-color);
+  padding: 1rem;
   align-items: center;
+  background-color: #222630;
+  border-bottom: 1px solid var(--soom-border-color);
 }
 
-.nav {
-  display: flex;
-  gap: 1rem;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 1rem;
+  padding: 0 1rem;
+  color: var(--soom-primary-color);
 }
 
 .blank {

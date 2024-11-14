@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  gap: 2rem;
+  color: #ffffff6a;
+}
+
+.nav a:hover {
+  color: #ffffff90;
+  cursor: pointer;
+}
+
+.nav a.active {
+  color: orange;
+}
