@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className={styles.container}>
       <div className={styles.blank}></div>
-      <div>© 2024 KenSoft</div>
+      <div className={styles.copyright}>© 2024 KenSoft</div>
     </footer>
   );
 }

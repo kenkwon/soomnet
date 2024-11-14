@@ -3,6 +3,7 @@ import Header from '@/components/modules/common/Header';
 import type { Metadata } from 'next';
 import './globals.css';
 import styles from './layout.module.css';
+import { Noto_Sans_KR } from 'next/font/google';
 
 export const metadata: Metadata = {
   // title: '숨 실시간 현황판',
@@ -12,13 +13,19 @@ export const metadata: Metadata = {
   },
 };
 
+const defaultFont = Noto_Sans_KR({
+  weight: '400',
+  variable: '--soom-font-noto-sans-kr',
+  subsets: ['latin'],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={defaultFont.className}>
       <body className={styles.container}>
         <Header />
         <main className={styles.main}>{children}</main>

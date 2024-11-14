@@ -1,118 +1,14 @@
 :root {
-  --soom-body-color: rgba(255, 255, 255, 0.87);
-  --soom-body-color-rgb: 255, 255, 255;
-  --soom-body-bg: #212631;
-  --soom-body-bg-rgb: 33, 38, 49;
-  --soom-emphasis-color: #fff;
-  --soom-emphasis-color-rgb: 255, 255, 255;
-  --soom-secondary-color: rgba(255, 255, 255, 0.6);
-  --soom-secondary-color-rgb: 255, 255, 255;
-  --soom-secondary-bg: #323a49;
-  --soom-secondary-bg-rgb: 50, 58, 73;
-  --soom-tertiary-color: rgba(255, 255, 255, 0.38);
-  --soom-tertiary-color-rgb: 255, 255, 255;
-  --soom-tertiary-bg: #2a303d;
-  --soom-tertiary-bg-rgb: 42, 48, 61;
-  --soom-elevation-base-color: 0, 0, 0;
-  --soom-high-emphasis: rgba(255, 255, 255, 0.87);
-  --soom-medium-emphasis: rgba(255, 255, 255, 0.6);
-  --soom-disabled: rgba(255, 255, 255, 0.38);
-  --soom-primary: #6261cc;
-  --soom-secondary: #6b7785;
-  --soom-success: #249542;
-  --soom-info: #3d99f5;
-  --soom-warning: #edad21;
-  --soom-danger: #db5d5d;
-  --soom-light: #f3f4f7;
-  --soom-dark: #212631;
-  --soom-gray-100: #f3f4f7;
-  --soom-gray-200: #e7eaee;
-  --soom-gray-300: #dbdfe6;
-  --soom-gray-400: #cfd4de;
-  --soom-gray-500: #aab3c5;
-  --soom-gray-600: #6d7d9c;
-  --soom-gray-700: #4a566d;
-  --soom-gray-800: #323a49;
-  --soom-gray-900: #212631;
-  --soom-primary-rgb: 98, 97, 204;
-  --soom-secondary-rgb: 107, 119, 133;
-  --soom-success-rgb: 36, 149, 66;
-  --soom-info-rgb: 61, 153, 245;
-  --soom-warning-rgb: 237, 173, 33;
-  --soom-danger-rgb: 219, 93, 93;
-  --soom-light-rgb: 243, 244, 247;
-  --soom-dark-rgb: 33, 38, 49;
-  --soom-primary-text-emphasis: #403f98;
-  --soom-secondary-text-emphasis: #212233;
-  --soom-success-text-emphasis: #145224;
-  --soom-info-text-emphasis: #1f4b70;
-  --soom-warning-text-emphasis: #70460b;
-  --soom-danger-text-emphasis: #611a1a;
-  --soom-light-text-emphasis: #f3f4f7;
-  --soom-dark-text-emphasis: #dbdfe6;
-  --soom-primary-bg-subtle: #cfc7f3;
-  --soom-secondary-bg-subtle: #ced2d8;
-  --soom-success-bg-subtle: #cbedd6;
-  --soom-info-bg-subtle: #c0e6ff;
-  --soom-warning-bg-subtle: #feecc5;
-  --soom-danger-bg-subtle: #f9d4d4;
-  --soom-light-bg-subtle: #323a49;
-  --soom-dark-bg-subtle: #1d222b;
-  --soom-primary-border-subtle: #9d92e6;
-  --soom-secondary-border-subtle: #9da5b1;
-  --soom-success-border-subtle: #96dbad;
-  --soom-info-border-subtle: #80c6ff;
-  --soom-warning-border-subtle: #fcd88a;
-  --soom-danger-border-subtle: #f2a9a9;
-  --soom-light-border-subtle: #4a566d;
-  --soom-dark-border-subtle: #323a49;
-  --soom-primary-start: #6261cc;
-  --soom-primary-stop: #7770d2;
-  --soom-secondary-start: #cdd2d8;
-  --soom-secondary-stop: white;
-  --soom-success-start: #3aad60;
-  --soom-success-stop: #249542;
-  --soom-info-start: #3d99f5;
-  --soom-info-stop: #3581c0;
-  --soom-warning-start: #edad21;
-  --soom-warning-stop: #e99418;
-  --soom-danger-start: #db5d5d;
-  --soom-danger-stop: #cd4343;
-  --soom-light-start: #e5e8eb;
-  --soom-light-stop: white;
-  --soom-dark-start: #444d5c;
-  --soom-dark-stop: #25262f;
-  --soom-heading-color: inherit;
-  --soom-link-color: #6261cc;
-  --soom-link-hover-color: #8181d6;
-  --soom-link-color-rgb: 98, 97, 204;
-  --soom-link-hover-color-rgb: 129, 129, 214;
-  --soom-code-color: #e685b5;
-  --soom-highlight-color: rgba(255, 255, 255, 0.87);
-  --soom-highlight-bg: #664d03;
-  --soom-border-color: #323a49;
-  --soom-border-color-translucent: rgba(255, 255, 255, 0.1);
-  --soom-form-valid-color: #75b798;
-  --soom-form-valid-border-color: #75b798;
-  --soom-form-invalid-color: #ea868f;
-  --soom-form-invalid-border-color: #ea868f;
+  --soom-color: rgba(255, 255, 255, 0.87);
+  --soom-border-color: #2b303c;
+  --soom-card-color: #222630;
+  --soom-primary-color: #e3e3e4;
+  --soom-description-color: #ffffff6a;
 }
 
 html,
 body {
   height: 100vh;
   overflow-y: auto;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
-    'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   color: #ffffff6a;
-}
-
-a {
-  color: var(--soom-link-color);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--soom-link-hover-color);
 }

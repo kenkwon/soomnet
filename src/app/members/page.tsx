@@ -1,9 +1,15 @@
 import React from 'react';
+import styles from './page.module.css';
+import Members from '@/components/modules/members/Members';
 
-export default function MembersPage() {
+type OwnProps = {};
+
+const MembersPage: React.FC<OwnProps> = () => {
   return (
-    <section>
-      <h1>회원 관련 페이지 입니다.</h1>
-    </section>
+    <article className={styles.container}>
+      <Members />
+    </article>
   );
-}
+};
+
+export default MembersPage;
